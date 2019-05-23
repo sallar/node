@@ -11,6 +11,8 @@ if (! module.parent) {
   app.listen(port);
 }
 
+console.log("hey");
+
 module.exports = app
 
 console.log("Server running on port " + port);
